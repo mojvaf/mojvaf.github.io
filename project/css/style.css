@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* head part
+*/
+#in-top {
+    font-size: 50px;
+    text-align: center;
+    height: 450px;
+    padding: 70px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+Navigation
+*/
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+
+    background-color: darkcyan;
+    list-style: none;
+
+}
+
+nav li {
+    padding: 5px 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+
+}
+
+nav li a:hover {
+    background-color: rgba(77, 182, 172, 1);
+}
+
+/* 
+Color and style
+*/
+
+body {
+    background-image: url(../img/green.jpg);
+}
+
+
+footer {
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: black;
+
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h3 {
+    color: aqua;
+    font-size: 30;
+    text-align: center;
+    clear: both;
+
+
+}
+
+/*
+Layout
+*/
+
+header {
+    height: 100vh;
+}
+
+h3 {
+    padding-top: 100px;
+}
+
+
+/* box part
+*/
+.edu-content,
+.work {
+    background-color: lightgrey;
+    width: 35%;
+    border: 25px solid green;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.edu-content {
+    border: 25px solid orange;
+    width: 80%;
+}
+
+/** react
+**/
+@media only screen and (max-width:700px) {
+    nav ul {
+        background-color: aquamarine;
+    }
+
+    nav ul li a {
+        color: black;
+    }
+
+
+    .work {
+
+        width: 80%;
+
+    }
+
+}
